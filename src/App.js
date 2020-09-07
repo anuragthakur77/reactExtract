@@ -8,7 +8,7 @@ class App extends Component{
 
   state={apiresponse:"",url:""};
   callAPI=(url)=>{
-    fetch("http://localhost:9000/extract?url="+url)
+    fetch("https://nodeextract2.herokuapp.com/extract?url="+url)
     .then(res => res.text())
     .then(res => this.setState({apiresponse: res}))
   }
