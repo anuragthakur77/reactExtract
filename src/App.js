@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import JSONPretty from 'react-json-pretty';
 
+//heroku create $APP_NAME --buildpack mars/create-react-app    
 
 
 
