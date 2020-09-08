@@ -33,7 +33,7 @@ class App extends Component{
         <form onSubmit={this.handleSubmit}>
         <input type="text" placeholder="Flipkat URLs" onChange={this.handleChange} ></input>
         <button >Extract</button>
-        <a target="_blank" href="https://nodeextract2.herokuapp.com/?extractPage?url=https://flipkart.com"><button >Download File</button></a>
+        <a target="_blank" href="https://nodeextract2.herokuapp.com/extract?url=https://flipkart.com"><h4 >Download File</h4></a>
         <JSONPretty id="json-pretty" data={this.state.apiresponse}></JSONPretty>
         </form>
       </div>
